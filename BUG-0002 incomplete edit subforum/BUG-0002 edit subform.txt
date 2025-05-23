@@ -1,0 +1,43 @@
+PurpleEclipse v1.0.3 1stPass Edit Subforum [Feature]: Incomplete editable Subforum. 
+
+[Summary]
+  Upon clicking the edit button of the edit subforum, only the subforum name is visible and editable. “Describe the subforum” and “Icon for the subforum” are nowhere to be found and cannot be edited. 
+
+[Precondition]
+ PurpleEclipse v1.0.3
+
+[Steps to reproduce]
+ 1. Visit the homepage.
+ 2. Click Forums button on the navigation bar.
+ 3. Click the Edit Forum button on a specific forum.
+ 4. Set the edit name textbox to “Testers”.
+ 5. Set the description name text box to “Software Test”.
+ 6. Click the Save Changes button.
+ 7. Click the Cancel button.
+
+[Actual results]
+ Verify that the edit forum overlay is shown, but the editable description name and icon are missing. 
+
+[Expected results]
+ The forum is successfully edited.
+
+[Additional information]
+ A screenshot of the error after clicking the edit forum is attached as your reference...
+
+[Is this Breakage?]
+ Yes, this is a breakage. The change/update password functionality was previously working, but it has now failed to work.
+ 
+[Severity: How does this problem impact the customer/user?]
+ 4. Moderate usability and accessibility issues.
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 2. Low, only for a special occasion.
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+ FORUM-0002
+
+[Impact Sizing (in days)]
+ Less than a day
